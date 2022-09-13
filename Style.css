@@ -1,0 +1,80 @@
+body {
+    background: GhostWhite;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  /*------------- Styling my Div------------- */
+  div {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    padding: 5px 8px;
+    overflow: auto;
+  }
+  
+  /*------------- Styling my ul & li------------- */
+  ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    float: left;
+    padding: 12px;
+    margin: 10px;
+
+    /*-------X------ Styling my ul & li-------X------ */
+
+    /*------------- My txt size------------- */
+    width: 130px;
+    height: 60px;
+
+    /* ------------- My txt alignment ------------- */
+    line-height: 4;
+    text-align: center;
+    vertical-align: middle;
+
+    /* ------------- My button styling ------------- */
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px #ccc;
+    -moz-box-shadow: 2px 2px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 2px #ccc;
+    -o-box-shadow: 2px 2px 2px #ccc;
+    font-weight: bold;
+  }
+  
+  .red {
+    background: orangered;
+    border-bottom: 6px solid Tomato;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+  }
+  
+  /* ------------- My 1st hover styling  ------------- */
+  .red:hover {
+    background: Tomato;
+    border-bottom: 6px solid OrangeRed;
+  }
+  
+  .green {
+    background: SpringGreen;
+    border-bottom: 6px solid MediumSeaGreen;
+  }
+  
+  /* ------------- My 2nd hover styling  ------------- */
+  .green:hover {
+    background: MediumSeaGreen;
+    border-bottom: 6px solid SpringGreen;
+  }
+  
+  .blue {
+    background: DodgerBlue;
+    border-bottom: 6px solid LightSkyBlue;
+  }
+  
+  /* ------------- My 3rd hover styling  ------------- */
+  .blue:hover {
+    background: LightSkyBlue;
+    border-bottom: 6px solid DodgerBlue;
+  }
